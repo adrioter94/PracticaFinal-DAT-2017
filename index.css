@@ -1,0 +1,137 @@
+body{
+  background-image: url(paper.jpg);
+}
+
+#banner{
+  width: 100%;
+  height: 300px;
+}
+
+#banner img{
+  height: 100%;
+  width: 100%;
+}
+
+#tabs{
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+#mapid{
+  z-index: 0;
+}
+
+#load-parkings{
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+}
+
+#instal-principal,#mapid,#select-collection,
+#instal-collection,#all-collections,#info-collection{
+  border-style: solid;
+  border-width: 1px;
+  height: 400px;
+}
+
+#info-parking hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    border-color: black;
+}
+
+.fa-times-circle{
+  float: right;
+}
+
+.fa-times-circle:hover{
+  cursor: pointer;
+}
+
+.scroll{
+  height: 400px;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.elem-list-principal:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+#instal-collection .elem-list-collection:hover{
+  cursor: grab;
+}
+
+
+#info-parking{
+  width: 95%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.myCarousel{
+  margin: 0 auto;
+}
+
+#description{
+  padding-left: 50px;
+}
+
+#list-collections li span.name-collection:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+#list-collections li span.remove-collection{
+  margin-left: 20px;
+}
+#list-collections li span.remove-collection:hover{
+  color: red;
+  cursor: pointer;
+}
+
+#all-collections #list-collections{
+  font-size: 18px;
+}
+
+#info-collection{
+  font-size: 18px;
+}
+
+#instal-users,#all-users{
+  margin-top: 20px;
+  border: 1px solid;
+}
+
+#load-users{
+  color: white;
+  margin-top: 20px;
+}
+
+#list-users li{
+  cursor: grab;
+}
+
+.fa-ban{
+  color: red;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+#save-all,#load-all{
+  float: right;
+  color: black;
+}
+
+#load-all{
+  margin-right: 10px;
+}
+
+#dialog-save{
+  z-index: 1;
+}
