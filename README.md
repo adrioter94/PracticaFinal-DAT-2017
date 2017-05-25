@@ -14,6 +14,6 @@
 
 **Lista de funcionalidades opcionales que se hayan implementado, y breve descripción de cada una:** Borrar colecciones, cuando se cargan datos de json desde github, se actualizan todas las pestañas(sus colecciones...).
 
-**URL del vı́deo demostración de la funcionalidad básica:**
+**URL del vı́deo demostración de la funcionalidad básica:** https://www.youtube.com/watch?v=eVP061yZETM&feature=youtu.be
 
 **URL del vı́deo demostración de la funcionalidad optativa, si se ha realizado funcionalidad optativa**:
