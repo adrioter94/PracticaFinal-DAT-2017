@@ -135,3 +135,7 @@ body{
 #dialog-save{
   z-index: 1;
 }
+footer{
+  margin-top: 15px;
+  text-align: center;
+}
